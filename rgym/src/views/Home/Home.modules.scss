@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+button {
+  cursor: pointer;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.home {
+  max-width: 1536px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  &_navbar {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5% 5% 0.5% 5%;
+    &_time {
+      &_logo {
+        margin: 0 40px 0 0;
+      }
+    }
+    &_list {
+      display: flex;
+      align-items: center;
+      &_item {
+        list-style: none;
+        text-decoration: none;
+        margin: 0 50px 0 0;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        opacity: 0.75;
+        &:last-child {
+          margin: 0 auto;
+          width: 111px;
+          height: 50px;
+          flex-shrink: 0;
+          background-color: #a92a1d;
+          cursor: pointer;
+          border: none;
+        }
+      }
+    }
+  }
+  &_start {
+    background-image: url("@/assets/images/bcimage.png");
+    background-color: black;
+    padding: 250px 0 250px 299px;
+    background-repeat: no-repeat;
+    &_text {
+      width: 450px;
+      color: rgba(255, 255, 255, 0.75);
+      font-family: Montserrat;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    &_gr {
+      display: flex;
+      align-items: center;
+      margin: 38px 0 0 0;
+    }
+    &_btn {
+      width: 150px;
+      height: 50px;
+      flex-shrink: 0;
+      background-color: #a92a1d;
+      color: #fff;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 144.444% */
+      letter-spacing: -0.9px;
+      border: none;
+      margin: 0 20px 0 0;
+    }
+  }
+  &_popular {
+    text-align: center;
+    padding: 155px 0 0 0;
+    background-color: black;
+    &_title {
+      text-align: center;
+      color: rgba(255, 255, 255, 0.75);
+      font-family: Montserrat;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin: 0 0 29px 0;
+    }
+    &_subtitle {
+      margin: 0 auto;
+      width: 790px;
+      color: rgba(255, 255, 255, 0.75);
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 144.444% */
+      letter-spacing: -0.9px;
+    }
+    &_img {
+      margin: 15px 0 113px 0;
+    }
+    &_worklist {
+      display: flex;
+      &_item {
+        height: 600px;
+        width: 20%;
+        img {
+          width: 100%;
+        }
+      }
+      &_item:nth-child(2),
+      &_item:nth-child(4) {
+        padding: 75px 0 0 0;
+      }
+    }
+    &_plan {
+      display: flex;
+      padding: 110px 150px 0 150px;
+      &_text {
+        width: 50%;
+        color: rgba(255, 255, 255, 0.75);
+        font-family: Montserrat;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      &_sidetext {
+        width: 50%;
+        color: rgba(255, 255, 255, 0.75);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 155.556% */
+        letter-spacing: -0.9px;
+      }
+    }
+  }
+}
