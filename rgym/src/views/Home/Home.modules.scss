@@ -5,6 +5,10 @@ button {
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none ;
 }
 .home {
   max-width: 1536px;
@@ -160,6 +164,7 @@ button {
   }
   &_training {
     padding: 170px 0 0 0;
+    position: relative;
     &_intro {
       display: flex;
       align-items: center;
@@ -245,6 +250,114 @@ button {
           letter-spacing: -0.9px;
         }
       }
+    }
+
+    &_login {
+      position: absolute;
+      top: 2100px;
+      left: 530px;
+      text-align: center;
+      margin: 0 auto;
+      width: 620px;
+      &_img {
+        width: 800px;
+        margin: -300px 0 0 365px;
+      }
+      &_title {
+        color: rgba(255, 255, 255, 0.75);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      &_subtitle {
+        color: rgba(255, 255, 255, 0.75);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 144.444% */
+        letter-spacing: -0.9px;
+        margin: 16px 0 38px 0;
+      }
+      &_email {
+        width: 400px;
+        height: 60px;
+        background-color: transparent;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: -0.9px;
+        margin: 0 0 16px 0;
+      }
+      &_submit {
+        width: 400px;
+        height: 60px;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: -0.9px;
+      }
+    }
+  }
+  &_footer {
+    padding: 300px 200px 100px 150px;
+    &_group {
+      display: flex;
+      &_items {
+        width: 25%;
+        &_img {
+        }
+        &_subtext {
+          color: rgba(255, 255, 255, 0.75);
+          font-family: Poppins;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 36px; /* 200% */
+          letter-spacing: -0.9px;
+        }
+        &_title {
+          color: rgba(255, 255, 255, 0.75);
+          font-family: Poppins;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 21px;
+          margin: 0 0 45px 0;
+        }
+        &_list {
+          &_items {
+            color: rgba(255, 255, 255, 0.75);
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            margin: 0 0 20px 0;
+          }
+        }
+        &_limg {
+          &_img {
+            margin: 0 9px 0 0;
+          }
+        }
+      }
+    }
+    &_copyright{
+      font-size: 16px;
+      color: #fff;
+      text-align: center;
+      margin: 100px 0 0 0;
     }
   }
 }

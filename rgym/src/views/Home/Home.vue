@@ -127,6 +127,66 @@
           </p>
         </div>
       </div>
+      <img
+        src="@/assets/images/backpic.png"
+        alt="BackPic"
+        :class="styles.home_training_login_img"
+      />
+      <div :class="styles.home_training_login">
+        <p :class="styles.home_training_login_title">Subscribe to our newsletter</p>
+        <p :class="styles.home_training_login_subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui neque.
+        </p>
+        <button :class="styles.home_training_login_email" type="button">
+          Enter Email
+        </button>
+        <button :class="styles.home_training_login_submit" type="button">Submit</button>
+      </div>
+    </div>
+    <div :class="styles.home_footer">
+      <div :class="styles.home_footer_group">
+        <div :class="styles.home_footer_group_items">
+          <img src="@/assets/images/rgym.png" alt="RGym" :class="styles.home_footer_group_items_img">
+          <p :class="styles.home_footer_group_items_subtext">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
+          </p>
+        </div>
+        <div :class="styles.home_footer_group_items">
+          <p :class="styles.home_footer_group_items_title">
+            Information
+          </p>
+          <ul :class="styles.home_footer_group_items_list">
+            <li :class="styles.home_footer_group_items_list_items">About us</li>
+            <li :class="styles.home_footer_group_items_list_items">Lifestyle</li>
+            <li :class="styles.home_footer_group_items_list_items">Fitness</li>
+            <li :class="styles.home_footer_group_items_list_items">Pricing</li>
+          </ul>
+        </div>
+        <div :class="styles.home_footer_group_items">
+          <p :class="styles.home_footer_group_items_title">
+            More Links
+          </p>
+          <ul :class="styles.home_footer_group_items_list">
+            <li :class="styles.home_footer_group_items_list_items">Gallery</li>
+            <li :class="styles.home_footer_group_items_list_items">ClubLocation</li>
+            <li :class="styles.home_footer_group_items_list_items">Behind the scence</li>
+            <li :class="styles.home_footer_group_items_list_items">Contact</li>
+          </ul>
+        </div>
+        <div :class="styles.home_footer_group_items">
+          <p :class="styles.home_footer_group_items_title">
+            Follow Us On!
+          </p>
+          <div :class="styles.home_footer_group_items_limg">
+            <img src="@/assets/images/face.png" alt="Facebook" :class="styles.home_footer_group_items_limg_img">
+            <img src="@/assets/images/twitter.png" alt="Twitter" :class="styles.home_footer_group_items_limg_img">
+            <img src="@/assets/images/insta.png" alt="Instagram" :class="styles.home_footer_group_items_limg_img">
+          </div>
+        </div>
+      </div>
+      <p :class="styles.home_footer_copyright">
+        This is copyright => Timur Joldasbayev timurjoldasbaev02@gmail.com
+      </p>
     </div>
   </div>
 </template>
