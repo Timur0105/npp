@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat&family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+li,
+button {
+  cursor: pointer;
+}
+.home {
+  &_nav {
+    padding: 47px 144px;
+    display: flex;
+    justify-content: space-between;
+    &_logo {
+      color: #1a1a1a;
+      font-family: Nunito;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    &_navbar {
+      display: flex;
+      align-items: center;
+      &_items {
+        color: #1a1a1a;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0 50px 0 0;
+      }
+    }
+    &_log {
+      border: none;
+      background-color: transparent;
+      width: 80px;
+      height: 42px;
+      margin: 0 50px 0 0;
+    }
+    &_btn {
+      width: 80px;
+      height: 42px;
+      border-radius: 4px;
+      background: #066f14;
+      color: #fff;
+      font-family: DM Sans;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      border: none;
+    }
+  }
+  &_main {
+    padding: 0 0 0 144px;
+    &_homeplant {
+      display: flex;
+      &_context {
+        width: 50%;
+        padding: 49px 0 0 0;
+        &_title {
+          width: 525px;
+          color: #1a1a1a;
+          font-family: Nunito;
+          font-size: 72px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 92px;
+        }
+        &_subtitle {
+          width: 525px;
+          color: #4a4a4a;
+          font-family: DM Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 160%;
+          margin: 24px 0 40px 0;
+        }
+        &_btn {
+          border-radius: 4px;
+          background: #066f14;
+          display: flex;
+          padding: 16px 32px;
+          align-items: flex-start;
+          gap: 10px;
+          border: none;
+          color: #fff;
+          font-family: DM Sans;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          margin: 0 0 60px 0;
+        }
+        &_rate {
+          display: flex;
+          &_items {
+            &:not(:last-child) {
+              margin: 0 115px 0 0;
+            }
+            &_num {
+              color: #001b04;
+              font-family: Nunito;
+              font-size: 36px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+            &_text {
+              color: #1a1a1a;
+              font-family: DM Sans;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+        }
+      }
+      &_images {
+        position: relative;
+        width: 50%;
+        &_cactus {
+          width: 550px;
+          height: 720px;
+        }
+        &_item1 {
+          position: absolute;
+          top: 175px;
+          bottom: 0;
+          right: 0;
+          left: -37px;
+        }
+        &_item2 {
+          position: absolute;
+          top: 70px;
+          bottom: 0;
+          right: 0;
+          left: 318px;
+        }
+        &_item3 {
+          position: absolute;
+          top: 550px;
+          bottom: 0;
+          right: 0;
+          left: 360px;
+        }
+        &_leaf {
+          position: absolute;
+          top: 350px;
+          bottom: 0;
+          right: 0;
+          left: -220px;
+        }
+      }
+    }
+    &_plants {
+      padding: 80px 0 0 0;
+      display: flex;
+      &_context {
+        width: 40%;
+        &_title {
+          width: 390px;
+          color: #1a1a1a;
+          font-family: Nunito;
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          margin: 0 0 37px 0;
+        }
+      }
+      &_images {
+        width: 60%;
+        &_plant1:not(:last-child) {
+          margin: 0 24px 0 0;
+        }
+      }
+    }
+    &_banzay {
+      padding: 120px 0 0 0;
+      display: flex;
+      &_img {
+        width: 40%;
+      }
+      &_context {
+        width: 50%;
+        padding: 0 0 0 80px;
+        &_title {
+          color: #066f14;
+          font-family: DM Sans;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+        &_subtitle {
+          margin: 12px 0 24px 0;
+          color: #1a1a1a;
+          font-family: Nunito;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 50px;
+        }
+        &_text {
+          color: #4a4a4a;
+          font-family: DM Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 160%;
+        }
+        &_subtext {
+          color: #4a4a4a;
+          font-family: DM Sans;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 160%;
+          margin: 12px 0 36px 0;
+        }
+        &_btn {
+          color: #fff;
+          font-family: DM Sans;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          border-radius: 4px;
+          background: #066f14;
+          gap: 10px;
+          padding: 16px 32px;
+          border: none;
+        }
+      }
+    }
+    &_best {
+      padding: 128px 120px 128px 0;
+      &_title {
+        text-align: center;
+        color: #1a1a1a;
+        font-family: Nunito;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+      }
+      &_list {
+        display: flex;
+        justify-content: center;
+        margin: 24px 0 50px 0;
+        &_item {
+          color: #4a4a4a;
+          font-family: DM Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          margin: 0 24px 0 0;
+          &:first-child {
+            color: #066f14;
+            font-size: 18px;
+          }
+        }
+      }
+      &_group {
+        display: flex;
+        &_item {
+          padding: 10px 0 29px 32px;
+          width: 23%;
+          &:not(:last-child) {
+            margin: 0 24px 0 0;
+          }
+          &:first-child {
+            background-color: #eaf2e5;
+          }
+          &:nth-child(2) {
+            background-color: #f0ebe6;
+          }
+          &:nth-child(3) {
+            background-color: #e2ece4;
+          }
+          &:last-child {
+            background-color: #e7eeed;
+          }
+          &_img {
+            margin: 0 0 0 45px;
+          }
+          &_star {
+          }
+          &_title {
+            color: #1a1a1a;
+            font-family: Nunito;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px;
+            margin: 12px 0 10px 0;
+          }
+          &_price {
+            color: #1a1a1a;
+            font-family: Nunito;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 19px;
+            margin-top: 10px;
+          }
+        }
+      }
+      &_btn {
+        text-align: center;
+        border-radius: 4px;
+        background: #066f14;
+        padding: 16px 32px;
+        color: #fff;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border: none;
+        margin: 40px auto 0 560px;
+      }
+    }
+    &_opinion {
+      padding: 0 0 128px 0;
+    }
+    &_subscribe {
+      width: 80%;
+      display: flex;
+      background-color: #dfffe3;
+      align-items: center;
+      padding: 60px 0 60px 60px;
+      &_context {
+        width: 50%;
+        &_title {
+          color: #1a1a1a;
+          font-family: Nunito;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 50px;
+        }
+        &_subtitle {
+          color: #4a4a4a;
+          font-family: DM Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 160%;
+          margin: 12px 0 30px 0;
+        }
+        &_in {
+          position: relative;
+          display: flex;
+          align-items: center;
+          &_input {
+            width: 450px;
+            padding: 8px;
+            height: 50px;
+            border: none;
+          }
+          &_btn {
+            padding: 11px 16px;
+            position: absolute;
+            top: 5px;
+            bottom: 5px;
+            right: 70px;
+            left: 355px;
+            border: none;
+            border-radius: 4px;
+            background: #066f14;
+            color: #fefefe;
+            font-family: DM Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+      }
+      &_image {
+        position: relative;
+        width: 50%;
+        &_img {
+          position: absolute;
+          top: -200px;
+          bottom: 0;
+          right: 15px;
+        }
+      }
+    }
+    &_focus {
+      text-align: center;
+      padding: 80px 100px 128px 0;
+      &_title {
+        color: #1a1a1a;
+        font-family: Nunito;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 57px;
+      }
+      &_subtitle {
+        margin: 12px auto 40px auto;
+        width: 540px;
+        color: #4a4a4a;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+      }
+      &_imgroup {
+        &_img {
+          width: 95%;
+        }
+      }
+    }
+  }
+  &_footer{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 96px 0;
+  }
+}

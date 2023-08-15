@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat&family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+li,
+button {
+  cursor: pointer;
+}
+
+.home_nav {
+  padding: 47px 144px;
+  display: flex;
+  justify-content: space-between;
+}
+.home_nav_logo {
+  color: #1a1a1a;
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.home_nav_navbar {
+  display: flex;
+  align-items: center;
+}
+.home_nav_navbar_items {
+  color: #1a1a1a;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 50px 0 0;
+}
+.home_nav_log {
+  border: none;
+  background-color: transparent;
+  width: 80px;
+  height: 42px;
+  margin: 0 50px 0 0;
+}
+.home_nav_btn {
+  width: 80px;
+  height: 42px;
+  border-radius: 4px;
+  background: #066f14;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+.home_main {
+  padding: 0 0 0 144px;
+}
+.home_main_homeplant {
+  display: flex;
+}
+.home_main_homeplant_context {
+  width: 50%;
+  padding: 49px 0 0 0;
+}
+.home_main_homeplant_context_title {
+  width: 525px;
+  color: #1a1a1a;
+  font-family: Nunito;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92px;
+}
+.home_main_homeplant_context_subtitle {
+  width: 525px;
+  color: #4a4a4a;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 24px 0 40px 0;
+}
+.home_main_homeplant_context_btn {
+  border-radius: 4px;
+  background: #066f14;
+  display: flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border: none;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 0 60px 0;
+}
+.home_main_homeplant_context_rate {
+  display: flex;
+}
+.home_main_homeplant_context_rate_items:not(:last-child) {
+  margin: 0 115px 0 0;
+}
+.home_main_homeplant_context_rate_items_num {
+  color: #001b04;
+  font-family: Nunito;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.home_main_homeplant_context_rate_items_text {
+  color: #1a1a1a;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.home_main_homeplant_images {
+  position: relative;
+  width: 50%;
+}
+.home_main_homeplant_images_cactus {
+  width: 550px;
+  height: 720px;
+}
+.home_main_homeplant_images_item1 {
+  position: absolute;
+  top: 175px;
+  bottom: 0;
+  right: 0;
+  left: -37px;
+}
+.home_main_homeplant_images_item2 {
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  right: 0;
+  left: 318px;
+}
+.home_main_homeplant_images_item3 {
+  position: absolute;
+  top: 550px;
+  bottom: 0;
+  right: 0;
+  left: 360px;
+}
+.home_main_homeplant_images_leaf {
+  position: absolute;
+  top: 350px;
+  bottom: 0;
+  right: 0;
+  left: -220px;
+}
+.home_main_plants {
+  padding: 80px 0 0 0;
+  display: flex;
+}
+.home_main_plants_context {
+  width: 40%;
+}
+.home_main_plants_context_title {
+  width: 390px;
+  color: #1a1a1a;
+  font-family: Nunito;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 37px 0;
+}
+.home_main_plants_images {
+  width: 60%;
+}
+.home_main_plants_images_plant1:not(:last-child) {
+  margin: 0 24px 0 0;
+}
+.home_main_banzay {
+  padding: 120px 0 0 0;
+  display: flex;
+}
+.home_main_banzay_img {
+  width: 40%;
+}
+.home_main_banzay_context {
+  width: 50%;
+  padding: 0 0 0 80px;
+}
+.home_main_banzay_context_title {
+  color: #066f14;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.home_main_banzay_context_subtitle {
+  margin: 12px 0 24px 0;
+  color: #1a1a1a;
+  font-family: Nunito;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+.home_main_banzay_context_text {
+  color: #4a4a4a;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.home_main_banzay_context_subtext {
+  color: #4a4a4a;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  margin: 12px 0 36px 0;
+}
+.home_main_banzay_context_btn {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 4px;
+  background: #066f14;
+  gap: 10px;
+  padding: 16px 32px;
+  border: none;
+}
+.home_main_best {
+  padding: 128px 120px 128px 0;
+}
+.home_main_best_title {
+  text-align: center;
+  color: #1a1a1a;
+  font-family: Nunito;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+.home_main_best_list {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0 50px 0;
+}
+.home_main_best_list_item {
+  color: #4a4a4a;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 24px 0 0;
+}
+.home_main_best_list_item:first-child {
+  color: #066f14;
+  font-size: 18px;
+}
+.home_main_best_group {
+  display: flex;
+}
+.home_main_best_group_item {
+  padding: 10px 0 29px 32px;
+  width: 23%;
+}
+.home_main_best_group_item:not(:last-child) {
+  margin: 0 24px 0 0;
+}
+.home_main_best_group_item:first-child {
+  background-color: #eaf2e5;
+}
+.home_main_best_group_item:nth-child(2) {
+  background-color: #f0ebe6;
+}
+.home_main_best_group_item:nth-child(3) {
+  background-color: #e2ece4;
+}
+.home_main_best_group_item:last-child {
+  background-color: #e7eeed;
+}
+.home_main_best_group_item_img {
+  margin: 0 0 0 45px;
+}
+.home_main_best_group_item_title {
+  color: #1a1a1a;
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 12px 0 10px 0;
+}
+.home_main_best_group_item_price {
+  color: #1a1a1a;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  margin-top: 10px;
+}
+.home_main_best_btn {
+  text-align: center;
+  border-radius: 4px;
+  background: #066f14;
+  padding: 16px 32px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  margin: 40px auto 0 560px;
+}/*# sourceMappingURL=Home.modules.css.map */
