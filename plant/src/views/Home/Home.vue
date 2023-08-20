@@ -239,14 +239,14 @@
       </div>
     </div>
     <div :class="styles.home_footer">
-      <img src="@/assets/images/footer.png" alt="footer" :class="styles.home_footer_img">
+      <img src="@/assets/images/footer.png" alt="footer" :class="styles.home_footer_img">      
     </div>
   </div>
 </template>
 
 <script>
 import styles from "./Home.modules.scss";
-export default {
+export default {  
   name: "Home",
   data() {
     return {
